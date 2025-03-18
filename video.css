@@ -1,0 +1,87 @@
+.main{
+    display: flex;
+    font-family: "Roboto", serif;
+
+}
+.left{
+    width: 70%;
+    /* background-color: red; */
+}
+.right{
+    /* background-color: aqua; */
+}
+.video-card{
+    display: flex;
+    margin: 10px;
+}
+.thumbnail{
+    width: 200px;
+    margin-right: 10px;
+}
+.channel-info{
+    display: flex;
+    align-items: center;
+}
+.channel-logo{
+    width: 30px;
+    height: 30px;
+    border: 0.2px solid rgba(128, 128, 128, 0.585);
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.info *{
+    margin: 0;
+    padding: 0;
+}
+.left-channel-info{
+    display: flex;
+    align-items: center;
+}
+.left-channel-info *{
+    
+    margin-right: 10px;
+}
+.left-channel-info button{
+    height: 45px;
+    width: 90px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: rgb(190, 1, 1);
+    color: white;
+}
+.left-channel-info button:hover{
+    cursor: pointer;
+}
+.left-channel-info button:focus{
+    outline: none;
+}
+
+.right-channel-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.right-channel-info div{
+    background-color: grey;
+    border-radius: 25px 0px 0px 25px;
+}
+
+#like{
+    border: none;
+    border-radius: 25px 0px 0px 25px;
+    height: 40px;
+    width: 60px;
+    background-color: transparent;
+    cursor: pointer;
+}
+#like:hover{
+    background-color: rgba(184, 184, 184, 0.659);
+}

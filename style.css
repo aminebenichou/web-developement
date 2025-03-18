@@ -1,0 +1,125 @@
+*{
+    font-family: "Roboto", serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+body{
+    width: 100%;
+}
+ul{
+    list-style: none;
+    padding-top: 5px;
+    width: 100%;
+}
+
+aside{
+    height: 100vh;
+    width: 20%;
+    padding-top: 5px;
+    border-right: 0.3px solid rgb(181, 181, 181);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+li{
+    margin-bottom: 5px;
+    padding: 7px;
+    
+    font-size: large;
+}
+li a{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+li a span{
+    width: 60%;
+}
+li:hover{
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+#logo{
+    width: 150px;
+}
+.flex{
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.centered{
+    justify-content: center;
+    align-items: start;
+}
+input{
+    border: 0.5px solid grey;
+}
+input:focus{
+    outline: none;
+}
+#search{
+    margin-top: 15px;
+    width: 50%;
+    padding: 10px;
+    font-size: large;
+    border-radius: 25px 0px 0px 25px;
+}
+#search-btn{
+    margin-top: 15px;
+    margin-left: 0;
+    padding: 13px;
+    border-radius: 0px 25px 25px 0px;
+    background-color: rgb(234, 234, 234);
+}
+.content{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.video-card{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.thumbnail{
+    width: 100%;
+    height: 150px;
+}
+
+.video-card:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 25px rgba(128, 128, 128, 0.395);
+}
+.channel-info{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.channel-logo{
+    width: 30px;
+    height: 30px;
+    border: 0.2px solid rgba(128, 128, 128, 0.585);
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+.animated{
+    animation-duration: 20s;
+    animation-name: example;
+
+}
