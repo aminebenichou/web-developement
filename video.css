@@ -135,3 +135,10 @@
 #more:hover{
     background-color: rgba(184, 184, 184, 0.659);
 }
+
+#dark-btn{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
